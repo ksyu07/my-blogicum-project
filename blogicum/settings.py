@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'blogicum_internal.urls'
+ROOT_URLCONF = 'blogicum.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'blogicum_internal.wsgi.application'
+WSGI_APPLICATION = 'blogicum.wsgi.application'
 
 
 # Database
